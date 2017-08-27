@@ -1,12 +1,13 @@
 # *-* coding:utf-8 *-*
 
+"""
+二分搜索.
+:param alist:有序列表, []
+:param item:待搜索目标, str
+"""
+
 
 def binary_search1(alist, item):
-    """
-    二分搜索.
-    :param alist:有序列表, []
-    :param item:待搜索目标, str
-    """
     first = 0
     last = len(alist) - 1
     found = False
@@ -23,11 +24,6 @@ def binary_search1(alist, item):
 
 
 def binary_search2(alist, item):
-    """
-    二分搜索递归版
-    :param alist: 有序列表, []
-    :param item: 待搜索目标, str
-    """
     if len(alist) == 0:
         return False
     midpoint = len(alist) // 2
@@ -41,6 +37,7 @@ def binary_search2(alist, item):
 
 if __name__ == '__main__':
     import random
+
     sorted_list = [41, 55, 76, 87, 88, 99, 123, 432, 546, 577, 688, 786]
     target = random.choice(sorted_list)
     print("***the alist is:", sorted_list)

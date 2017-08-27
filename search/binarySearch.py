@@ -3,7 +3,7 @@
 """
 二分搜索.
 :param alist:有序列表, []
-:param item:待搜索目标, str
+:param item:待搜索目标, int
 """
 
 

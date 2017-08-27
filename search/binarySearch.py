@@ -24,6 +24,7 @@ def binary_search1(alist, item):
 
 
 def binary_search2(alist, item):
+    """二分搜索递归形式."""
     if len(alist) == 0:
         return False
     midpoint = len(alist) // 2

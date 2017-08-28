@@ -1,4 +1,4 @@
-# *-* coding:utf-8 *-*
+# -*- coding:utf-8 -*-
 """
 二分搜索.
 :param alist:有序列表, []

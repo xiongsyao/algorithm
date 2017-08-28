@@ -26,6 +26,6 @@ def merge_sort(alist):
 if __name__ == "__main__":
     import random
 
-    li = range(10)
+    li = range(10000)
     random.shuffle(li)
-    print(merge_sort(li))
+    assert merge_sort(li) == sorted(li)

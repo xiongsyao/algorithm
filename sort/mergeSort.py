@@ -2,8 +2,8 @@
 def merge_sort(alist):
     """
     归并排序
-    :param alist: 无序列表, str 
-    :return: 有序列表
+    :param alist: 无序列表, []
+    :return: 有序列表, []
     """
     if len(alist) < 2:
         return alist

@@ -130,6 +130,3 @@ if __name__ == "__main__":
     print lst[1]
     lst.clear()
     print lst
-        
-        
-
